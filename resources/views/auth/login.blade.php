@@ -17,7 +17,7 @@
                     <input class="form-control form-control-lg" name="password" id="password" type="password"
                         placeholder="Password" required value="{{ old('password') }}" />
                     @error('email')
-                        <div class="alert alert-danger mt-3" role="alert">
+                        <div class="alert alert-danger mt-3" role="alert ">
                             <strong>{{ $message }}</strong>
                         </div>
                     @enderror
